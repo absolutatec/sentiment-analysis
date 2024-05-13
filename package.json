@@ -1,0 +1,16 @@
+{
+  "name": "analise_sentimento",
+  "version": "1.0.0",
+  "description": "Projeto para analisar o sentimentos das frases enviadas do bot.",
+  "main": "analise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sentiment": "^5.0.2"
+  }
+}
